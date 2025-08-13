@@ -16,8 +16,8 @@ This repository contains a complete analysis workflow for studying top quark pai
 
 ## 🚀 Repository Structure
 - main
-  -DataProcessing #contaning file used to create the input for DNN
-  -Plots #Containing plots
+  - DataProcessing #contaning file used to create the input for DNN
+  - Plots #Containing plots
   
 ## 🛠️ Key Features
 
