@@ -15,17 +15,10 @@ This repository contains a complete analysis workflow for studying top quark pai
 - **Event Reconstruction**: Includes hadronic and leptonic top quark reconstruction with neutrino momentum estimation
 
 ## 🚀 Repository Structure
-├── Code/
-│   ├── NAF/
-│   │   ├── DataPreProcessing.ipynb     # Complete data pipeline
-│   │   ├── DataHandling.py             # Physics utilities & 4-vector operations
-│   │   └── Plotting.py                 # Visualization functions
-│   └── DNNTraining/
-│       ├── DNN_Classifier.ipynb        # Neural network training & analysis
-│       ├── feature_importance_analysis # Model interpretability
-│       └── trained_models/             # Saved model artifacts
-├── Data/                              # ROOT files & processed datasets
-└── Results/                           # Training results & plots
+├── DataProcessing/
+│   ├── DataPreProcessing.ipynb     # Complete data pipeline
+│   ├── DataHandling.py             # Physics utilities & 4-vector operations
+│   └── Plotting.py                 # Visualization functions
 
 ## 🛠️ Key Features
 
