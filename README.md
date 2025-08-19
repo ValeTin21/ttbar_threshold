@@ -56,9 +56,3 @@ This repository contains a complete analysis workflow for studying top quark pai
 - **Optimization**: Adam optimizer with early stopping
 - **Validation**: Proper train/validation/test splits with physics-aware weighting
 
-### Feature Importance Analysis
-```python
-# Fast TensorFlow-native methods implemented:
-1. Weight Analysis - Direct inspection of learned parameters
-2. Gradient Sensitivity - Using tf.GradientTape for feature gradients  
-3. Correlation Analysis - Feature-prediction relationships
