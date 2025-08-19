@@ -1,6 +1,0 @@
-- df_cut: 'down_4vec', 'up_4vec', 'had_b_4vec', 'lep_b_4vec', 'neutrino_4vec','lepton_4vec', 'had_t', 'lep_t', 'lepton_type', 'ttbar_4vec', 'beta','prod_type'
-- arrays: had_t_mass_cut, _t_mass_cut, ttbar_mass_cut, abs(ttbar_betaz_cut), ttbar_pT, jets_per_event, bbbar_deltaeta, bbbar_deltaR, ttbar_deltaeta, ttbar_deltaR, ttbar_D_variable, ttbar_Cos_han_variable, ttbar_CosTstar_had, ttbar_CosTstar_lep
-
-UPDATED:
-- df_cut: 'beta','prod_type'
-- arrays: ttbar_mass_cut, abs(ttbar_betaz_cut), ttbar_pT, jets_per_event, bbbar_deltaeta, bbbar_deltaR, ttbar_deltaeta, ttbar_deltaR, ttbar_D_variable, ttbar_Cos_han_variable, ttbar_CosTstar_had, ttbar_CosTstar_lep
