@@ -1,0 +1,7 @@
+This folder named 1 node contains the trained model with 1 output node, to run a true/false analysis.
+In particular you can find:
+- gq_SimpleDNN_allFeatures.ipynb : notebook to study gg vs gq channel, using all available features
+- qq_SimpleDNN_allFeatures.ipynb : notebook to study gg vs qq channel, using all available features
+- gq_qq_SimpleDNN_allFeatures.ipynb : notebook to study gq vs qq channel, using all available features
+- gq_SimpleDNN_noSpin.ipynb : notebook to study gg vs gq channel, not using Chan and D variable
+- qq_SimpleDNN_noSpin.ipynb : notebook to study gg vs qq channel, not using Chan and D variable
