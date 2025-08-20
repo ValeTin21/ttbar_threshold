@@ -1,0 +1,4 @@
+This folder named DNN contains all main trained models, for each differente cases.
+In particular, you can find:
+- folder 1 node : models to run a 2 channel analysis with true/false outputs
+- folder 3 node : models to run a 3 channel analysis implementing D distribution as discriminant
