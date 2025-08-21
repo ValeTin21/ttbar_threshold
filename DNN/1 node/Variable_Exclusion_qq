@@ -1,7 +1,7 @@
 Running the gg vs qq analysis excluding everytime one different variable:
 
 ||| Reference: ALL -> AUC = 64.1 % |||
-(hints: drop due to: ttbar_deltaeta, bbbar_deltaeta, ttbar_COs_han_variable ... )
+(hints: drop due to: ttbar_deltaeta, bbbar_deltaeta, ttbar_Cos_han_variable ... )
 
 ______________________________
 VARIABLE               | AUC
@@ -23,3 +23,5 @@ _____________________________
 
 Biggest impact from: 
 ttbar_pT , ttbar_mass_cut, jets_per_event, bbbar_deltaeta, ttbar_D_variable
+
+Running the analysis only with variables that had an AUC<64% in the table above (major impact on total AUC), we get: 62.9%
