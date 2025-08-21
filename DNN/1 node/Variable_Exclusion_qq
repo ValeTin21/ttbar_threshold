@@ -25,3 +25,4 @@ Biggest impact from:
 ttbar_pT , ttbar_mass_cut, jets_per_event, bbbar_deltaeta, ttbar_D_variable
 
 Running the analysis only with variables that had an AUC<64% in the table above (major impact on total AUC), we get: 62.9%
+Running the analysis only with variables that had an AUC<63.9% in the table above (major impact on total AUC), we get: 60.8%
