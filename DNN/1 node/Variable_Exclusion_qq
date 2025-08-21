@@ -19,3 +19,7 @@ ttbar_D_variable       | 63.8
 ttbar_Cos_han_variable | 64.1
 ttbar_CosTstar_had     | 64.0
 ttbar_CosTstar_lep     | 63.9
+_____________________________
+
+Biggest impact from: 
+ttbar_pT , ttbar_mass_cut, jets_per_event, bbbar_deltaeta, ttbar_D_variable
