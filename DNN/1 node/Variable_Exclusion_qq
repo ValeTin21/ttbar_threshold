@@ -3,11 +3,19 @@ Running the gg vs qq analysis excluding everytime one different variable:
 ||| Reference: ALL -> AUC = 64.1 % |||
 (hints: drop due to: ttbar_deltaeta, bbbar_deltaeta, ttbar_COs_han_variable ... )
 
-____________________________
-VARIABLE             | AUC
-____________________________
-beta                 | 64.0
-ttbar_mass_cut       | 63.6
-ttbar_betaz_cut_abs  | 64.0
-ttbar_pT             | 63.3
-jets_per_event       | 63.7
+______________________________
+VARIABLE               | AUC
+______________________________
+beta                   | 64.0
+ttbar_mass_cut         | 63.6
+ttbar_betaz_cut_abs    | 64.0
+ttbar_pT               | 63.3
+jets_per_event         | 63.7
+bbbar_deltaeta         | 63.8
+bbbar_deltaR           | 64.0
+ttbar_deltaeta         | 63.9
+ttbar_deltaR           | 64.0
+ttbar_D_variable       | 63.8
+ttbar_Cos_han_variable | 64.1
+ttbar_CosTstar_had     | 64.0
+ttbar_CosTstar_lep     | 63.9
