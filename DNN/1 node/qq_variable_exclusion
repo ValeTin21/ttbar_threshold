@@ -1,6 +1,0 @@
-Running the gg vs qq analysis excluding everytime one different variable:
-Reference: ALL -> AUC = 64.1 %
-
-VARIABLE | AUC
-_______________
-beta     | 64.0
