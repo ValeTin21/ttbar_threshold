@@ -6,19 +6,19 @@ Running the gg vs qq analysis excluding everytime one different variable:
 ______________________________
 VARIABLE               | AUC
 ______________________________
-beta                   | 64.0
-ttbar_mass_cut         | 63.6
-ttbar_betaz_cut_abs    | 64.0
-ttbar_pT               | 63.3
-jets_per_event         | 63.7
-bbbar_deltaeta         | 63.8
-bbbar_deltaR           | 64.0
-ttbar_deltaeta         | 63.9
-ttbar_deltaR           | 64.0
-ttbar_D_variable       | 63.8
 ttbar_Cos_han_variable | 64.1
+beta                   | 64.0
+ttbar_betaz_cut_abs    | 64.0
+bbbar_deltaR           | 64.0
+ttbar_deltaR           | 64.0
 ttbar_CosTstar_had     | 64.0
 ttbar_CosTstar_lep     | 63.9
+ttbar_deltaeta         | 63.9
+bbbar_deltaeta         | 63.8
+ttbar_D_variable       | 63.8
+jets_per_event         | 63.7
+ttbar_mass_cut         | 63.6
+ttbar_pT               | 63.3
 _____________________________
 
 Biggest impact from: 
