@@ -1,0 +1,16 @@
+✅ All libraries imported successfully
+Dataset shapes - X_train: (68424, 13), X_vali: (22808, 13), X_test: (22808, 13)
+Label shapes - Y_train: (68424,), Y_vali: (22808,), Y_test: (22808,)
+Weight shapes - train_weights: (68424,), vali_weights: (22808,), test_weights: (22808,)
+Starting tuning - 432 configurations to test
+================================================================================
+FINAL SUMMARY- gq vs qq
+================================================================================
+Total elapsed time: 19808.36 seconds
+Best configuration found:
+  Architecture: [256, 128, 64, 32]
+  Dropout: 0.1
+  Learning Rate: 1e-05
+  Batch Size: 32
+  Best AUC: 0.8453
+================================================================================

@@ -1,0 +1,16 @@
+✅ All libraries imported successfully
+Dataset shapes - X_train: (523170, 13), X_vali: (174391, 13), X_test: (174390, 13)
+Label shapes - Y_train: (523170,), Y_vali: (174391,), Y_test: (174390,)
+Weight shapes - train_weights: (523170,), vali_weights: (174391,), test_weights: (174390,)
+Starting tuning - 288 configurations to test
+================================================================================
+FINAL SUMMARY
+================================================================================
+Total elapsed time: 62253.75 seconds
+Best configuration found:
+  Architecture: [256, 128, 64, 32, 16]
+  Dropout: 0.1
+  Learning Rate: 1e-05
+  Batch Size: 128
+  Best AUC: 0.6351
+================================================================================
