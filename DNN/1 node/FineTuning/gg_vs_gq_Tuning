@@ -1,0 +1,42 @@
+TUNING OF THE MODEL for gg vs gq channel
+
+##########################################
+batch:32, 64, 128, 256
+dropout: 0.2
+LR: 1e-3, 1e-4, 1e-5
+
+||| Best configuration found: |||
+   Hidden units: [256, 128, 64]
+   Dropout rate: 0.2
+   Learning rate: 1e-05
+   Batch size: 128
+   Best validation AUC: 0.8158
+   Epochs trained: 10
+
+##########################################
+batch: 32,64,128,256
+dropout: 0.1
+LR: 1e-3, 1e-4, 1e-5
+
+Best configuration found:
+   Hidden units: [128, 64, 64]
+   Dropout rate: 0.1
+   Learning rate: 1e-05
+   Batch size: 128
+   Best validation AUC: 0.8154
+   Epochs trained: 10
+
+##########################################
+batch size: 32,64,128,256
+dropout: 0.3
+LR: 1e-3, 1e-4, 1e-5
+
+Best configuration found:
+   Hidden units: [128, 64, 64]
+   Dropout rate: 0.3
+   Learning rate: 1e-05
+   Batch size: 128
+   Best validation AUC: 0.8154
+   Epochs trained: 10
+
+##########################################
