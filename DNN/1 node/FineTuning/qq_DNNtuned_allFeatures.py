@@ -11,7 +11,7 @@ import sys
 import pickle
 import mplhep as hep
 plt.style.use(hep.style.ATLAS)
-FilePath='/data/dust/user/vtinari/'
+FilePath='filepath'
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -129,3 +129,4 @@ print(f"  Learning Rate: {best_config['learning_rate']}")
 print(f"  Batch Size: {best_config['batch_size']}")
 print(f"  Best AUC: {best_config['test_auc']:.4f}")
 print("="*80)
+
