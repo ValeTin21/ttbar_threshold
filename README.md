@@ -30,9 +30,8 @@ This repository contains a complete analysis workflow for studying top quark pai
 
 ### Deep Learning Implementation
 - **Architecture**: Binary classification DNN (128→64→1 neurons)
-- **Framework**: TensorFlow/Keras with GPU acceleration
+- **Framework**: TensorFlow/Keras
 - **Training Strategy**: Weighted training with Monte Carlo statistical importance
-- **Performance**: ~60% accuracy on challenging signal/background separation
 - **Model Interpretability**: Multiple feature importance analysis methods
 
 ### Physics Analysis Tools
