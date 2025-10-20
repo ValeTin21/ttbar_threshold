@@ -10,14 +10,17 @@ This repository contains a complete analysis workflow for studying top quark pai
 
 - **Dataset**: Simulated particle collision events from ROOT files
 - **Physics Process**: Top quark pair (ttbar) production analysis
-- **Classification Task**: Signal (gg → ttbar) vs Background (gq/qq → ttbar) 
+- **Classification Task**: Signal (gg → ttbar) vs Background (gq/qq → ttbar) for the binary classifier; gg → ttbar vs gq → ttbar vs qq → ttbar for the three classes classifier
 - **Key Physics Variables**: 13 kinematic and angular features including invariant masses, angular separations (ΔR, Δη), helicity angles, and momentum distributions
 - **Event Reconstruction**: Includes hadronic and leptonic top quark reconstruction with neutrino momentum estimation
 
 ## 🚀 Repository Structure
 - main
-  - DataProcessing #contaning file used to create the input for DNN
-  - Plots #Containing plots
+  - *DataProcessing*, contaning file used to create the input for DNN
+  - *Plots*, containing plots
+  - *DNN*, containing the implementation of both the binary and the three classes classifiers
+  - *Consistency Check*, containing the BDT implementation to cross check our results
+  - *ATLAS_presentation*, the presentation given in front of the ATLAS group and the entire Summer School community, speaking on behalf of the ATLAS group 
   
 ## 🛠️ Key Features
 
@@ -29,7 +32,7 @@ This repository contains a complete analysis workflow for studying top quark pai
 - **Data Quality**: Automatic filtering of unphysical events and outliers
 
 ### Deep Learning Implementation
-- **Architecture**: Binary classification DNN (128→64→1 neurons)
+- **Architecture**: Binary classification DNN (1 node folder) and 3 classes classifier (3 nodes folder)
 - **Framework**: TensorFlow/Keras
 - **Training Strategy**: Weighted training with Monte Carlo statistical importance
 - **Model Interpretability**: Multiple feature importance analysis methods
