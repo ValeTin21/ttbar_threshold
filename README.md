@@ -41,4 +41,3 @@ This repository contains a complete analysis workflow for studying top quark pai
 - **Production Classification**: Automatic categorization of collision types (gg, gq, qq)
 - **Angular Variables**: Helicity angles, spin correlations (cos θ*, D-variable)
 - **Kinematic Distributions**: Mass spectra, momentum transfers, jet multiplicities
-- **Statistical Analysis**: Proper treatment of Monte Carlo uncertainties
